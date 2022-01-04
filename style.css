@@ -1,0 +1,51 @@
+/*  */
+nav {
+    /* 테두리 */
+    border-bottom: 1px solid black;
+    /* 가로로 배치, 자신이 가진 내용물의 width 만큼만 차지 */
+    display: flex;
+    /* 왼쪽부터 배치 */
+    flex-direction: row;
+    /* 넘치는거 어떻게 할지 - 변경X */
+    flex-wrap: nowrap;
+    /* 메인축 방향 정렬 */
+    justify-content: space-between;
+    /* 수직축 방향 정렬 */
+    align-items: center;
+    /* nav바 상단 고정 */
+    position: fixed;
+    top: 0;
+    /* width: 100% */
+    left: 20vw;
+    right: 20vw;
+}
+
+.icon_list {
+    display: flex;
+    align-items: center;
+}
+
+.board_list {
+    display: flex;
+    align-items: center;
+}
+
+/*  */
+
+body {
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding-top: 60px;
+    width: 60vw;
+    height : 100%;
+}
+
+.img_class {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: lightgray;
+    height: 300px;
+}
+
+/*  */
+
